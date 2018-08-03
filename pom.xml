@@ -35,11 +35,11 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:8082/manager/text</url>
+					<url>http://localhost:8081/manager/text</url>
 					<username>bob</username>
      				<password>whatever</password>
 					<path>/DemoWebPage</path>
-					<port>8082</port>
+					<port>8081</port>
 				</configuration>
 			</plugin>
 		</plugins>
